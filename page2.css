@@ -1,0 +1,105 @@
+nav a {
+    position: fixed;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+nav a:hover{
+    left: 0;
+
+}
+
+
+.main_page {
+    top:16px;
+    background-color: #4b000098 ;
+}
+.film{
+    top: 90px;
+    background-color: hsla(158, 96%, 10%, 0.608);
+}
+
+.otherfacts{
+    top: 142px;
+    background-color: #a67d0083;
+}
+
+.meme{
+    top:194px;
+    background-color: #1d4e8975;
+}
+
+body{
+  background-color:#4B0000 ;  
+}
+
+header {
+  background-color: #1a227e8e; 
+  color: gold;
+  font-size: 145%;
+  text-align: center;
+  border-radius: 40px;
+}
+
+
+header img{
+border-radius: 15%;
+width: 170px;
+height: 120px;
+
+}
+
+header h1{
+  background: linear-gradient(#D7C4A3, #F5E1B8, #D7C4A3);
+  color: #4B0000; 
+  margin: 0 150px;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(255, 223, 150, 0.5);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main_text{
+ color: gold;
+ background-color: rgba(0, 0, 0, 0.453);
+ border-radius:10px ;
+ font-size: 130%;
+ text-align: center;
+}
+
+
+.Joanne_Rowling{
+    height: 230xp;
+    width:220px;
+    border-radius: 15px;
+}
+
+.small_biographia{
+    color: gold;
+    background-color:rgba(0, 0, 0, 0.453) ;
+    float: right;
+    font-size: 160%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.snek{
+    width: 220px;
+    height: 180px;
+    border-radius: 5px;
+}
+
+footer {
+  background: linear-gradient(to left, #004035, #00695c); 
+  color: #FFD700; 
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
