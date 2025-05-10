@@ -1,0 +1,96 @@
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -1;
+}
+
+.video-background {
+  position: relative;
+}
+
+header h1 {
+  background-color:  #ffb300c1 ;
+  margin-left: 250px;
+  margin-right: 250px;
+  border-radius:25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: rgb(245, 245, 245);
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+nav a {
+    position: fixed;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+nav a:hover{
+    left: 0;
+
+}
+
+
+.aboutbooks {
+    top:16px;
+    background-color: #4b000098 ;
+}
+.film{
+    top: 90px;
+    background-color: hsla(158, 96%, 10%, 0.608);
+}
+
+.otherfacts{
+    top: 142px;
+    background-color: #a67d0083;
+}
+
+.meme{
+    top:194px;
+    background-color: #1d4e8975;
+}
+
+body {
+background-color: #4B0000;
+}
+
+main p{
+  color: #FFB400;
+  font-size: 25px;
+}
+
+main h1{
+  color: #7AAED9;
+  font-size:40px;
+}
+
+footer{
+  background-color:hsla(158, 96%, 10%, 0.608);
+  color: gold;
+  padding: 5px;
+  background-image: linear-gradient(to left,#1d4e8975,hsla(158, 96%, 10%, 0.608));
+  border-radius: 20px;
+  text-align: center;
+}
