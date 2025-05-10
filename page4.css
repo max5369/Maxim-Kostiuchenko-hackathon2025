@@ -1,0 +1,71 @@
+nav a {
+    position: fixed;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+nav a:hover {
+    left: 0;
+
+}
+
+
+.aboutbooks {
+    top: 16px;
+    background-color: #4b000098;
+}
+
+.main_page {
+    top: 90px;
+    background-color: hsla(158, 96%, 10%, 0.608);
+}
+
+.other_facts {
+    top: 165px;
+    background-color: #a67d0083;
+}
+
+.meme {
+    top: 217px;
+    background-color: #1d4e8975;
+}
+
+body {
+    background: url(https://i.postimg.cc/7hcWvLc9/Flux-Dev-Create-a-captivating-image-of-Harry-Potter-the-belove-1.jpg)no-repeat center center / cover;
+    ;
+    color: #B87333;
+}
+
+header {
+    background-color: #1a1a40e6;
+    color: #B87333;
+    text-align: center;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main p {
+    background-color: #0b3d2eeb;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+footer {
+    background-image:linear-gradient(to left, #004035, #00695c);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
